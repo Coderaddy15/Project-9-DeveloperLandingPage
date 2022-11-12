@@ -1,0 +1,541 @@
+*{margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;}
+    body{
+        background-color: #f5f5f5;
+    }
+    header{
+        background-color: #3400ff;
+        height: 600px;
+    }
+    nav{
+        float: right;
+        margin-right: 40px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    .nav-item{
+        margin-right: 20px;
+        color: #fff;
+        
+    }
+    .nav-item-active{
+        background-color: #fff;
+        padding: 5px;
+         border-radius: 5px;
+        color: #5a31fc;
+        margin-right: 20px;
+        font-weight: 400;
+    }
+    .logo{
+        margin: 20px;
+        margin-left: 52px;
+    }
+    .header-text{
+        color: #fff;
+        margin-left: 60px;
+        margin-top: 50px;
+        float: left;
+    }
+    .header-image{
+        float: right;
+    }
+    .header-text p{
+        margin-left: 5px;
+    }
+    .companies{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    .company-items{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+    .api-heading{
+        font-weight: 800;
+        margin-left: 90px;
+        margin-top: 100px;
+        font-style: bold;
+        font-family: sans-serif;
+    }
+    .cards{
+        margin-left: 90px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .card{
+        width: 20%;
+        height: 200px;
+        margin-right: 30px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        }
+        .card-active{
+            width: 20%;
+            height: 200px;
+            background-color: transparent;
+            margin-right: 30px;
+            box-shadow: 0px 5px 15px #000;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .card-logo{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .card-active h3{
+            color: #3400ff;
+            margin-left: 5px;
+        }
+        .card-active p{
+            margin-left: 5px;
+            margin-top: -15px;
+        }
+        .card h3{
+           margin-left: 5px;
+        }
+        .card p{
+            margin-left: 5px;
+            margin-top: -15px;
+        }
+        .blog-heading{
+            margin-left: 90px;
+            margin-top: 50px;
+         }
+         .blog-cards{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 90px;
+            
+            }
+            .blog-card{
+                display: flex;
+                width: 45%;
+                margin-right: 45px;
+                
+            }
+            .blog-bottom img{
+                position: absolute;
+                margin-top: 245px;
+                margin-left: -240px;
+            }
+            .blog-author{
+                margin-top: 253px;
+                margin-left: -90px;
+            }
+            .blog-content{
+                width: 50%;
+                height: 288px;
+                background-color: #fff;
+                border-radius: 5px;
+            }
+            .blog-image img{
+            width: 280px;
+            height: 288px;
+            }
+            .blog-content h6,h3,p{
+                margin-left: 25px;
+                margin-top: 20px;
+            }
+            .blog-content h6{
+                color: #3400ff;
+            }
+            .faq-section{
+                display: flex;
+                margin-top: 60px;
+                justify-content: space-between;
+                background-color: rgba(0, 0, 255, 0.068);
+            }
+            .faq-content{
+                margin-left: 90px;
+                margin-top: 15px;
+            }
+            .faq-content h2{
+                font-weight: 900;
+            }
+            .faq-content p{
+                margin-left: -2px;
+                font-size: 12px;
+            }
+            .faq-content button{
+                padding: 8px 15px 8px 15px;
+                border-radius: 5px;
+                border: none;
+                background-color: #3400ff;
+                color: #fff;
+                cursor: pointer;
+            }
+            .faq-image img{
+                height: 300px;
+            }
+            .download-section{
+                margin-top: 100px;
+                display: flex;
+                justify-content: space-between;
+                height: 150px;
+            }
+            .download-email{
+                margin-right: 40px;
+            }
+            .download-content{
+                margin-left: 90px;
+            }
+            .download-content span{
+                font-weight: 50;
+            }
+            .download-email{
+                margin-right: 250px;
+                
+            }
+            .download-email button{
+                position: absolute;
+                margin-top: -32px;
+                right: 105px;
+                padding: 8px 30px 8px 30px;
+                border-radius: 25px;
+                border: none;
+                background-color: #3400ff;
+                color: #fff;
+                margin-right: -50px;
+            }
+            .download-email input{
+                width: 120%;
+                padding: 8px 30px 8px 30px;
+                border-radius: 25px;
+                border: none;
+                background-color: rgba(0, 0, 255, 0.068);
+            }
+            .footer-section{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                background-color: #3400ff;
+                height: 250px;
+            }
+            .footer-left{
+                margin-left: 90px;
+                margin-top: 60px;
+            }
+            .list{
+                margin-top: 20px;
+                display: flex;
+                
+            }
+            .list-items{
+                list-style: none;
+                margin: 20px;
+                color: #fff;
+            }
+            .footer-right{
+                margin-top: 35px;
+                position: absolute;
+                right: 30px;
+                
+            }
+            .footer-right img{
+                margin: 10px;
+            }
+            .logos-list{
+                display: flex;
+                margin-top: 90px;
+                margin-right: 20px;
+            
+            }
+
+
+
+            
+            @media only screen and (max-width:700px){
+                header{
+                    background-color: #3400ff;
+                    height: 800px;
+                }
+                nav{
+                    float: right;
+                    margin-right: 40px;
+                    margin-top: 15px;
+                    cursor: pointer;
+                }
+                .nav-item{
+                    margin-right: 20px;
+                    color: #fff;
+                    font-size: 10px;
+                    
+                }
+                .nav-item-active{
+                    background-color: #fff;
+                    padding: 5px;
+                     border-radius: 5px;
+                    color: #5a31fc;
+                    margin-right: 20px;
+                    font-weight: 400;
+                    font-size: 10px;
+                }
+                #search-bar{
+                    display: none;
+                }
+                .logo{
+                    margin: 20px;
+                    margin-left: 52px;
+                    width: 40px;
+                }
+                .header-text{
+                    color: #fff;
+                    margin-left: 60px;
+                    margin-top: 50px;
+                    float: left;
+                }
+                .header-image{
+            
+                    width: 50%;
+                    margin-right: 265px;
+                    margin-top: 30px;
+                }
+                .header-text h2{
+                    font-size: 20px;
+                }
+                .header-text p{
+                    margin-left: 5px;
+                    font-size: 10px;
+                    margin-top: 0px;
+                }
+                .companies{
+                    margin-top: 20px;
+                    margin-left: 60px;
+                }
+                .company-items{
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 600;
+                    margin-left: 30px;
+                }
+                .api-heading{
+                    font-weight: 800;
+                    margin-left: 90px;
+                    margin-top: 100px;
+                    font-style: bold;
+                    font-family: sans-serif;
+                    font-size: 20px;
+                }
+                .cards{
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                }
+                .card{
+                    width: 20%;
+                    height: 160px;
+                    margin-right: 30px;
+                    background-color: #fff;
+                    padding: 10px;
+                    border-radius: 10px;
+                    }
+                    .card-active{
+                        width: 20%;
+                        height: 160px;
+                        background-color: transparent;
+                        margin-right: 30px;
+                        box-shadow: 0px 5px 15px #000;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+                    .card-logo{
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                        width: 20px;
+                    }
+                    .card-active h3{
+                        color: #3400ff;
+                        margin-left: 5px;
+                        font-size: 15px;
+                    }
+                    .card-active p{
+                        margin-left: 5px;
+                        margin-top: -15px;
+                        font-size: 7px;
+                    }
+                    .card h3{
+                       margin-left: 5px;
+                       font-size:15px;
+                    }
+                    .card p{
+                        margin-left: 5px;
+                        margin-top: -15px;
+                        font-size: 7px;
+                    }
+                    .blog-heading{
+                        margin-left: 90px;
+                        margin-top: 50px;
+                        font-size: 10px;
+                        display: none;
+                     }
+                     .blog-cards{
+                        margin-left: 90px;
+                        
+                        }
+                        .blog-card{
+                            display: flex;
+                            width: 45%;
+                            margin-right: 45px;
+                            display: none;
+                            
+                        }
+                        .blog-bottom img{
+                            position: absolute;
+                            margin-top: 245px;
+                            margin-left: -240px;
+                            width: 100px;
+                        }
+                        .blog-author{
+                            margin-top: 253px;
+                            margin-left: -90px;
+                        }
+                        .blog-content{
+                            width: 50%;
+                            height: 288px;
+                            background-color: #fff;
+                            border-radius: 5px;
+                        }
+                        .blog-image img{
+                        width: 280px;
+                        height: 288px;
+                        }
+                        .blog-content h6,h3,p{
+                            margin-left: 25px;
+                            margin-top: 20px;
+                        }
+                        .blog-content h6{
+                            color: #3400ff;
+                        }
+                        .faq-section{
+                            display: flex;
+                            margin-top: 30px;
+                            justify-content: space-between;
+                            background-color: rgba(0, 0, 255, 0.068);
+                            height: 168px;
+                        }
+                        .faq-content{
+                            margin-left: 90px;
+                            margin-top: 15px;
+                        }
+                        .faq-content h2{
+                            font-weight: 900;
+                            font-size: 15px;
+                        }
+                        .faq-content p{
+                            margin-left: -2px;
+                            font-size: 12px;
+                            font-size: 7px;
+                            margin-top: 0;
+                        }
+                        .faq-content h4{
+                            font-size: 10px;
+                            margin-top: -20px;
+                        }
+                        .faq-content button{
+                            padding: 5px 10px 5px 10px;
+                            border-radius: 5px;
+                            border: none;
+                            background-color: #3400ff;
+                            color: #fff;
+                            cursor: pointer;
+                            font-size: 8px;
+                        }
+                        .faq-image img{
+                            height: 168px;
+                        
+                        }
+                        .download-section{
+                            margin-top: 50px;
+                            display: flex;
+                            justify-content: space-between;
+                            height: 100px;
+                        }
+                        .download-email{
+                            margin-right: 40px;
+                        }
+                        .download-content{
+                            margin-left: 90px;
+                            font-size: 10px;
+                        }
+                        .download-content span{
+                            font-weight: 50;
+                        }
+                        .download-email{
+                            margin-right: 250px;
+                            
+                        }
+                        .download-email button{
+                            position: absolute;
+                            margin-top: -28px;
+                            right: 105px;
+                            padding: 8px 30px 8px 30px;
+                            border-radius: 25px;
+                            border: none;
+                            background-color: #3400ff;
+                            color: #fff;
+                            font-size: 11px;
+                            
+                        }
+                        .download-email input{
+                            width: 70%;
+                            margin-left: 120px;
+                            padding: 8px 30px 8px 30px;
+                            border-radius: 25px;
+                            border: none;
+                            background-color: rgba(0, 0, 255, 0.068);
+                            font-size: 10px;
+                        }
+                        .footer-section{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            background-color: #3400ff;
+                            height: 150px;
+                        }
+                        .footer-logo{
+                            width: 40px;
+                        }
+                        .footer-left{
+                            margin-left: 30px;
+                            margin-top: 60px;
+                        }
+                        .list{
+                            margin-top: 20px;
+                            display: flex;
+
+                            
+                        }
+                        .list-items{
+                            list-style: none;
+                            margin: 20px;
+                            color: #fff;
+                            font-size: 10px;
+                            margin-left: 2px;
+                        }
+                        .footer-right{
+                            margin-top: 25px;
+                            position: absolute;
+                            right: 30px;
+                            
+                        }
+                        .footer-right img{
+                            margin: 10px;
+                        }
+                        .logos-list{
+                            display: flex;
+                            margin-top: 75px;
+                            margin-right: 20px;
+                        
+                        }
+                        .footer-logos{
+                            width: 20px;
+                        }
+
+
+            }

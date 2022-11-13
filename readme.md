@@ -7,7 +7,7 @@
   - Flexbox
   - Boxshadow
   - Footer
-
+ - Mobile Responsive
 - Time taken to complete the project - 9 to 10 hours
 
 ![screeshot-1](./Images/Screenshot%20(24).png)
